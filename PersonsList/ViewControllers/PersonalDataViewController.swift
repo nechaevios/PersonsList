@@ -9,11 +9,16 @@ import UIKit
 
 class PersonalDataViewController: UIViewController {
 
+    @IBOutlet weak var phoneLabel: UILabel!
+    @IBOutlet weak var emailLabel: UILabel!
+    
+    var personDetails: Person!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
+        title = personDetails.fullName
+        phoneLabel.text = String(personDetails.phone)
+        emailLabel.text = personDetails.email
     }
-    
-
 }
