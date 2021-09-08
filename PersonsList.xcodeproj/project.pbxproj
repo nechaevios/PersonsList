@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D843993B26E90878007D5C0A /* DetailedListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D843993A26E90878007D5C0A /* DetailedListTableViewController.swift */; };
 		D8AA147C26E89900005C7A24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AA147B26E89900005C7A24 /* AppDelegate.swift */; };
 		D8AA147E26E89900005C7A24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AA147D26E89900005C7A24 /* SceneDelegate.swift */; };
 		D8AA148326E89900005C7A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AA148126E89900005C7A24 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D843993A26E90878007D5C0A /* DetailedListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedListTableViewController.swift; sourceTree = "<group>"; };
 		D8AA147826E89900005C7A24 /* PersonsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AA147B26E89900005C7A24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8AA147D26E89900005C7A24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				D8AA148626E89901005C7A24 /* LaunchScreen.storyboard */,
 				D8AA149326E89C35005C7A24 /* PersonsListViewController.swift */,
 				D8AA149B26E8D131005C7A24 /* PersonalDataViewController.swift */,
+				D843993A26E90878007D5C0A /* DetailedListTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			files = (
 				D8AA149626E89D56005C7A24 /* Person.swift in Sources */,
 				D8AA149926E8A58D005C7A24 /* DataManager.swift in Sources */,
+				D843993B26E90878007D5C0A /* DetailedListTableViewController.swift in Sources */,
 				D8AA149C26E8D131005C7A24 /* PersonalDataViewController.swift in Sources */,
 				D8AA147C26E89900005C7A24 /* AppDelegate.swift in Sources */,
 				D8AA147E26E89900005C7A24 /* SceneDelegate.swift in Sources */,
