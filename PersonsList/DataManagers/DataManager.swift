@@ -6,35 +6,76 @@
 //
 
 class DataManager {
-    static let shared = DataManager().generatePersons(amount: 10)
+    static let shared = DataManager().generatePersons()
     
-
-    private var phone = 0
-    private let firstNames = ["Kaira", "Fern", "Rita", "Roxanne", "Melanie", "Frank", "Ronan", "Tomas", "Carlos", "Lukas"]
-    private let lastNames = ["Tate", "Wang", "Wheeler", "Holloway", "Wong", "Salazar", "Osborne", "Lane", "Silva", "Carter"]
-    private let emails = ["kkk@mail.ru", "aaaa@mail.ru", "bbbb@mail.ru", "ccc@mail.ru", "ddddd1@mail.ru", "ee12@mail.ru", "ffff42@mail.ru", "ggg1@mail.ru", "hhh5@mail.ru", "iiii112@mail.ru"]
+    private var phones = [
+        10022222,
+        11122222,
+        22222222,
+        33322222,
+        44422222,
+        55522222,
+        66622222,
+        77722222,
+        88822222,
+        99922222
+    ]
+    private let firstNames = [
+        "Kaira",
+        "Fern",
+        "Rita",
+        "Roxanne",
+        "Melanie",
+        "Frank",
+        "Ronan",
+        "Tomas",
+        "Carlos",
+        "Lukas"
+    ]
+    private let lastNames = [
+        "Tate",
+        "Wang",
+        "Wheeler",
+        "Holloway",
+        "Wong",
+        "Salazar",
+        "Osborne",
+        "Lane",
+        "Silva",
+        "Carter"
+    ]
+    private let emails = [
+        "111@mail.ru",
+        "222@mail.ru",
+        "333@mail.ru",
+        "444@mail.ru",
+        "555@mail.ru",
+        "666@mail.ru",
+        "777@mail.ru",
+        "888@mail.ru",
+        "999@mail.ru",
+        "101@mail.ru"
+    ]
     
-    func generatePersons(amount: Int) -> Set<Person> {
-        var persons: Set<Person> = []
+    private func generatePersons() -> [Person] {
+        var persons: [Person] = []
+        let personName = firstNames.shuffled()
+        let personSurename = lastNames.shuffled()
+        let personPhone = phones.shuffled()
+        let personEmail = emails.shuffled()
         
-        while persons.count < amount {
-            let personName = firstNames[Int.random(in: 0...firstNames.count-1)]
-            let personSurename = lastNames[Int.random(in: 0...lastNames.count-1)]
-            let personPhone = Int.random(in: 10000001...99999999)
-            let personEmail = emails[Int.random(in: 0...emails.count-1)]
-            persons.insert(Person(
-                            firstName: personName,
-                            lastName: personSurename,
-                            phone: personPhone,
-                            email: personEmail
+        for i in 0..<personName.count {
+            persons.append(Person(
+                firstName: personName[i],
+                lastName: personSurename[i],
+                phone: personPhone[i],
+                email: personEmail[i]
             ))
         }
+        
         return persons
     }
     
-    
-    private init() {
-        
-    }
+    private init() {}
 }
 
