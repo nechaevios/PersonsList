@@ -64,12 +64,12 @@
 		D8AA147A26E89900005C7A24 /* PersonsList */ = {
 			isa = PBXGroup;
 			children = (
-				D8AA149726E89D5D005C7A24 /* Models */,
 				D8AA149226E89961005C7A24 /* ViewControllers */,
+				D8AA149A26E8A595005C7A24 /* DataManagers */,
 				D8AA149126E89952005C7A24 /* Storyboards */,
+				D8AA149726E89D5D005C7A24 /* Models */,
 				D8AA148F26E8992A005C7A24 /* Sources */,
 				D8AA149026E8993E005C7A24 /* App */,
-				D8AA149A26E8A595005C7A24 /* DataManagers */,
 			);
 			path = PersonsList;
 			sourceTree = "<group>";
@@ -95,6 +95,7 @@
 		D8AA149126E89952005C7A24 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				D8AA148626E89901005C7A24 /* LaunchScreen.storyboard */,
 				D8AA148126E89900005C7A24 /* Main.storyboard */,
 			);
 			path = Storyboards;
@@ -103,7 +104,6 @@
 		D8AA149226E89961005C7A24 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D8AA148626E89901005C7A24 /* LaunchScreen.storyboard */,
 				D8AA149326E89C35005C7A24 /* PersonsListViewController.swift */,
 				D8AA149B26E8D131005C7A24 /* PersonalDataViewController.swift */,
 				D843993A26E90878007D5C0A /* DetailedListTableViewController.swift */,
