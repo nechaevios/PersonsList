@@ -161,7 +161,7 @@
         <scene sceneID="7P2-Ua-VEE">
             <objects>
                 <tableViewController id="Zfi-A3-tj0" customClass="DetailedListTableViewController" customModule="PersonsList" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="30" estimatedRowHeight="-1" sectionHeaderHeight="35" estimatedSectionHeaderHeight="1" sectionFooterHeight="10" estimatedSectionFooterHeight="8" contentViewInsetsToSafeArea="NO" id="0Th-gF-aZ3">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="30" estimatedRowHeight="-1" sectionHeaderHeight="35" estimatedSectionHeaderHeight="1" sectionFooterHeight="12" estimatedSectionFooterHeight="12" contentViewInsetsToSafeArea="NO" id="0Th-gF-aZ3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

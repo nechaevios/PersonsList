@@ -51,8 +51,8 @@ class PersonsListViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let personVC = segue.destination as? PersonalDataViewController
         else { return }
-        
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        
         let person = personsData[indexPath.row]
         personVC.personDetails = person
     }

@@ -14,7 +14,7 @@ class DetailedListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = 40
-        
+
     }
     
     // MARK: - Table view data source
@@ -59,7 +59,6 @@ class DetailedListTableViewController: UITableViewController {
         
         header.textLabel?.font = UIFont.boldSystemFont(ofSize: 14)
         header.textLabel?.textColor = UIColor.black
-
         header.contentView.backgroundColor = UIColor(white: 0.8, alpha: 0.5)
     }
     
