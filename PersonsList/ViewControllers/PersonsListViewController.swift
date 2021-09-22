@@ -56,6 +56,8 @@ class PersonsListViewController: UITableViewController {
         let person = personsData[indexPath.row]
         personVC.personDetails = person
     }
+    
+
 }
 
 extension PersonsListViewController {
